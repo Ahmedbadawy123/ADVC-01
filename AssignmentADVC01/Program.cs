@@ -157,6 +157,13 @@
             // Contravariance : Uses In => Works With Input\Method Parameters => Assign From Base To Derived.
 
             #endregion
+
+            #region Q18: How do static members work in generic types?
+
+            // Static members are not shared across different closed generic types. A separate copy of the static field/member is maintained for each unique type argument.
+
+
+            #endregion
         }
     }
 }
