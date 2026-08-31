@@ -136,6 +136,13 @@
             // Asking AI
 
             #endregion
+
+            #region Q15: What is covariance? Explain the 'out' keyword.
+
+            // Covariance : Allows a More Derived Type to be Used Where a Base Type is Expected.
+            // Out : Guarantees The Type is Used Only In Output Positions (Return Types).
+
+            #endregion
         }
     }
 }
