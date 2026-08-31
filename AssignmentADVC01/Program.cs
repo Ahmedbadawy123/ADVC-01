@@ -111,9 +111,16 @@
 
             //By Using Commas ( , )
 
-            var manager = new Manager<OrderEntity>();
-            //Manager<OrderEntity> newOrder = new Manager<OrderEntity>();
-            OrderEntity newOrder = manager.Process();
+            //var manager = new Manager<OrderEntity>();
+            ////Manager<OrderEntity> newOrder = new Manager<OrderEntity>();
+            //OrderEntity newOrder = manager.Process();
+
+            #endregion
+
+            #region Q13: What does the 'default' keyword do in generics?
+
+            // Returns The Default Value For T
+
 
             #endregion
         }
