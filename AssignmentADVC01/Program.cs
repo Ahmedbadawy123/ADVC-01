@@ -171,6 +171,21 @@
 
 
             #endregion
+
+            #region Q20: Complete Exercise - Create a generic Cache<TKey,TValue > with Add, Get, Remove, Contains, and expiration support.
+        
+            var cache = new Cache<string, string>();
+              
+            cache.Add("token", "XYZ-12345", TimeSpan.FromSeconds(2));
+            Console.WriteLine($"Immediate Get: {cache.Get("token")}"); 
+    
+            System.Threading.Thread.Sleep(3000);
+            Console.WriteLine($"Expired Get: {cache.Get("token") ?? "NULL"}"); 
+
+            // Helping With Ai and Threading WorkShop
+
+            #endregion
+
         }
     }
 }
