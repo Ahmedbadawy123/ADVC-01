@@ -12,6 +12,17 @@
 
             #endregion
 
+            #region Q2: Write a generic class Container<T> with Add and Get methods
+
+            //Container<string> container = new Container<string>();
+            //container.Add("Ahmed");
+            //container.Add("Mohamed");
+
+            //Console.WriteLine(container.Get(0));
+            //Console.WriteLine(container.Get(1)); 
+
+            #endregion
+
         }
     }
 }
