@@ -150,6 +150,13 @@
             // In : Ensures The Type is Used Only In Input Position.
 
             #endregion
+
+            #region Q17: What is the difference between covariance and contravariance ?
+
+            // Covariance : Uses Out => Works With Output\Return Values => Assign From Derived To Base.
+            // Contravariance : Uses In => Works With Input\Method Parameters => Assign From Base To Derived.
+
+            #endregion
         }
     }
 }
