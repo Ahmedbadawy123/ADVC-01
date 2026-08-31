@@ -78,6 +78,17 @@
 
             #endregion
 
+            #region Q9: What is the 'new()' constraint? Write an example.
+
+            // The new() Constraints Requires That The Type Has a Public Parameterless CTOR .
+          
+            //var carFactory = new Factory<Car>();
+            //Car myCar = carFactory.CreateInstance();
+            //Console.WriteLine(myCar.Model);
+
+
+            #endregion
+
         }
     }
 }
