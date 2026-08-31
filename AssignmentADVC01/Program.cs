@@ -106,6 +106,16 @@
             //service.DisplayId(new User { Id = 2, Username = "Ali" });
 
             #endregion
+
+            #region Q12: How do you apply multiple constraints? Write an example.
+
+            //By Using Commas ( , )
+
+            var manager = new Manager<OrderEntity>();
+            //Manager<OrderEntity> newOrder = new Manager<OrderEntity>();
+            OrderEntity newOrder = manager.Process();
+
+            #endregion
         }
     }
 }
