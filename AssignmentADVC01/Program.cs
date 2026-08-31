@@ -42,6 +42,13 @@
 
             #endregion
 
+            #region Q5: Write a generic method FindMax<T> that finds maximum value
+
+            //int maxNumber = Utility.FindMax(20, 50);
+            //Console.WriteLine(maxNumber);
+ 
+            #endregion
+
         }
     }
 }
