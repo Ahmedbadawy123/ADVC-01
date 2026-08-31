@@ -46,7 +46,17 @@
 
             //int maxNumber = Utility.FindMax(20, 50);
             //Console.WriteLine(maxNumber);
- 
+
+            #endregion
+
+            #region Q6: What is a generic interface? Write IRepository<T>.
+
+            IRepository<Product> repo = new ProductRepository();
+            repo.Add(new Product { Id = 1, Name = "Mobile" });
+
+            var product = repo.Get(1);  // Helping With AI
+            Console.WriteLine(product.Name);
+
             #endregion
 
         }
