@@ -164,6 +164,13 @@
 
 
             #endregion
+
+            #region Q19: How can you inherit from a generic class?
+
+            // By Specifying The Type Parameter
+
+
+            #endregion
         }
     }
 }
