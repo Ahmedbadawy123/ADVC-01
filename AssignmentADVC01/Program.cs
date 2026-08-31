@@ -23,6 +23,14 @@
 
             #endregion
 
+            #region Q3:What are multiple type parameters? Write Pair<TKey,TValue >.
+
+            //Pair<int, string> student = new Pair<int, string>(1, "Ahmed");
+            //Console.WriteLine($"ID: {student.Key}, Name: {student.Value}");
+
+
+            #endregion
+
         }
     }
 }
