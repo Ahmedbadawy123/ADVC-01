@@ -81,11 +81,20 @@
             #region Q9: What is the 'new()' constraint? Write an example.
 
             // The new() Constraints Requires That The Type Has a Public Parameterless CTOR .
-          
+
             //var carFactory = new Factory<Car>();
             //Car myCar = carFactory.CreateInstance();
             //Console.WriteLine(myCar.Model);
 
+
+            #endregion
+
+            #region Q10: What is the interface constraint? Write an example
+
+            // Constraints That Requires The Type Implements The Specified Interface.
+
+            var loggerService = new Logger<FileLogger>();
+            loggerService.Execute(new FileLogger());
 
             #endregion
 
