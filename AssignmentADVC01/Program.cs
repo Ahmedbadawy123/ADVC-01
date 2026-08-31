@@ -51,11 +51,21 @@
 
             #region Q6: What is a generic interface? Write IRepository<T>.
 
-            IRepository<Product> repo = new ProductRepository();
-            repo.Add(new Product { Id = 1, Name = "Mobile" });
+            //IRepository<Product> repo = new ProductRepository();
+            //repo.Add(new Product { Id = 1, Name = "Mobile" });
 
-            var product = repo.Get(1);  // Helping With AI
-            Console.WriteLine(product.Name);
+            //var product = repo.Get(1);  // Helping With AI
+            //Console.WriteLine(product.Name);
+
+            #endregion
+
+            #region Q7: What is the 'struct' constraint? Write an example
+
+            // The Struct Constraints Allows Only Value Types.
+
+            //Box<int> calc = new Box<int> { Value = 42 };
+            //Console.WriteLine(calc.Value);
+
 
             #endregion
 
