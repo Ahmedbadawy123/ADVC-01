@@ -93,11 +93,19 @@
 
             // Constraints That Requires The Type Implements The Specified Interface.
 
-            var loggerService = new Logger<FileLogger>();
-            loggerService.Execute(new FileLogger());
+            //var loggerService = new Logger<FileLogger>();
+            //loggerService.Execute(new FileLogger());
 
             #endregion
 
+            #region Q11: What is the base class constraint? Write an example
+
+            // It Requires T to Inherit From a Specific Base Class.
+
+            //Service<User> service = new Service<User>();
+            //service.DisplayId(new User { Id = 2, Username = "Ali" });
+
+            #endregion
         }
     }
 }
