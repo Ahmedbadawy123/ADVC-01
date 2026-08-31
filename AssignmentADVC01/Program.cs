@@ -143,6 +143,13 @@
             // Out : Guarantees The Type is Used Only In Output Positions (Return Types).
 
             #endregion
+
+            #region Q16: What is contravariance? Explain the 'in' keyword.
+
+            // Contravariance : Allows a Base Type To Be Used Where a Derived Type is Expected
+            // In : Ensures The Type is Used Only In Input Position.
+
+            #endregion
         }
     }
 }
