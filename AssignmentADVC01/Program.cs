@@ -69,6 +69,15 @@
 
             #endregion
 
+            #region Q8: What is the 'class' constraint? Write an example.
+
+            // The Class Constraints Allows Only Reference Types 
+
+            //ObjectRepository<string> repo = new ObjectRepository<string> { Item = "Ay7aga" };
+            //Console.WriteLine(repo.Item);
+
+            #endregion
+
         }
     }
 }
