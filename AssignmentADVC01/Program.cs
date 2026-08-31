@@ -31,6 +31,17 @@
 
             #endregion
 
+            #region Q4: What is a generic method? Write Swap<T> method.
+
+            // Is A Method That Can Be Generic Even if The Class Is Not Generic [ Defines It's Own Parameters ].
+
+            //int x = 5;
+            //int y = 10;
+            //Helper.Swap(ref x, ref y);
+            //Console.WriteLine($"{x} {y}");
+
+            #endregion
+
         }
     }
 }
