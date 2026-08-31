@@ -123,6 +123,19 @@
 
 
             #endregion
+
+            #region Q14: Write a SafeList<T> that returns default when the index is invalid.
+
+            //var list = new SafeList<int>();
+            //list.Add(100);
+            //list.Add(200);
+
+            //Console.WriteLine(list.Get(0));
+            //Console.WriteLine(list.Get(10));
+
+            // Asking AI
+
+            #endregion
         }
     }
 }
